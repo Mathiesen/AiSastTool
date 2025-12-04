@@ -267,7 +267,7 @@ if __name__ == "__main__":
     print("AI Vulnerability Scanner")
     print("="*50)
     
-    OLLAMA_HOST = "http://10.176.88.123:11434"
+    OLLAMA_HOST = "http://localhost:11434"
     OLLAMA_MODEL = "codellama:34b"
     
     scanner = VulnerabilityScanner(
